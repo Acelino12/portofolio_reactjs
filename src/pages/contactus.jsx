@@ -8,7 +8,7 @@ const ContactUs = () => {
         <>
         <Header/>
         <ContactLayout/>
-        <Footer/>asd
+        <Footer/>
         </>
     )
 }
