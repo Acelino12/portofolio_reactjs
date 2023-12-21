@@ -1,10 +1,10 @@
 
 const Button = (prompt) => {
-  const {children, variant = "bg-black"} = prompt;
+  const {children,link, variant = "bg-black"} = prompt;
   return (
     <button
-    className={`h-10 px-6 font-semibold rounded-md w-full ${variant} text-white`}
-    type="submit">{children}</button>
+    className={`h-10 font-semibold rounded-md w-full ${variant} text-white`}
+    type="submit"><a href={link}></a>{children}</button>
   );
 };
 

@@ -21,7 +21,7 @@ const Footer = () => {
                     <p className="ps-4 pt-10 text-xl font-bold text-center">About</p>
                     <ul className="ps-4 text-center" type="none">
                         <a href="/home#pengalaman" className="hover:text-blue-600 transition-colors text-white">Pengalaman</a>
-                        <Li nama="Sertifikat" arah="/"/>
+                        <Li nama="Sertifikat" arah="/Sertifikat"/>
                         <a href="/home#project" className="hover:text-blue-600 transition-colors text-white">Project</a>
                         <Li nama="Organisasi" arah="/organisasi"/>
                     </ul>

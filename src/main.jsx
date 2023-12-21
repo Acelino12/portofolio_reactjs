@@ -9,6 +9,7 @@ import ErrorPage from './pages/404';
 import Home from './pages/home';
 import Organisasi from './pages/organisasi.jsx';
 import ContactUs from './pages/contactus.jsx';
+import Sertifkat from './pages/Sertifikat.jsx';
 
 
 const router = createBrowserRouter([
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
   {
     path: '/ContactUs',
     element: <ContactUs/>
+  },
+  {
+    path:'/Sertifikat',
+    element: <Sertifkat/>
   }
 ])
 
