@@ -1,10 +1,17 @@
+import { Link } from "react-router-dom";
 
 const Button = (prompt) => {
   const {children,link, variant = "bg-black"} = prompt;
   return (
+    <>
+    <Link to={link}>
     <button
     className={`h-10 font-semibold rounded-md w-full ${variant} text-white`}
-    type="submit"><a href={link}></a>{children}</button>
+    type="submit">{children}</button>
+    </Link>
+    
+    </>
+    
   );
 };
 
